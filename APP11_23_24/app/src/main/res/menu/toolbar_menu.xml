@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Activity2"
+        android:id="@+id/numero2"
+        android:icon="@drawable/suma"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:title="Activity3"
+        android:id="@+id/numero3"
+        android:icon="@drawable/resta"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:title="Multiplicació"
+        android:id="@+id/group1"/>
+    <item
+        android:title="Divisió"
+        android:id="@+id/group2"/>
+</menu>
